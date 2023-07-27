@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:padding="12dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/result_show">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="195 + 278"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_marginRight="24dp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="473"
+            android:textSize="56sp"
+            android:gravity="end"
+            android:layout_marginEnd="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/advanced_operation_button"
+            style="@style/calculateButton.Operation"
+            android:text="@string/c" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            android:background="@drawable/advanced_operation_button"
+            style="@style/calculateButton.Operation"
+            android:text="@string/d" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Operation"
+            android:text="@string/reminder" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Operation"
+            android:text="@string/div" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/seven" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/eight" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/nine" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Operation"
+            android:text="@string/multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/four" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/five" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/six" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Operation"
+            android:text="@string/sub" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/one" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/two" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/three" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Operation"
+            android:text="@string/sum" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/zero" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Number"
+            android:text="@string/dot" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            style="@style/advancedButtons.Answer"
+            android:text="@string/answer" />
+        <View
+            style="@style/viewStyle" />
+        <Button
+            style="@style/calculateButton.Equal"
+            android:text="@string/equal" />
+    </LinearLayout>
+
+</LinearLayout>

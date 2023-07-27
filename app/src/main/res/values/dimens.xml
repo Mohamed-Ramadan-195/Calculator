@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textButton">24sp</dimen>
+    <dimen name="textAdvancedButton">16sp</dimen>
+    <dimen name="ButtonLayoutWidth">72dp</dimen>
+    <dimen name="ButtonLayoutHeight">72dp</dimen>
+</resources>
